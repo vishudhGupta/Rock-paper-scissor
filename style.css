@@ -76,3 +76,52 @@ transition: all 0.25s;
 .hands .hand:hover{
     transform: translate3d(0px,-8px,0px);
 }
+
+.contest{
+    width: 900px;
+    display: flex;
+    margin-top: 50px;
+}
+.contest img{
+    width: 275px;
+    height: 275px;
+}
+
+.contest > div {
+    flex: 1;
+}
+    .contest h1{
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .contest .handImageContainer{
+        display: flex;
+        justify-content: center
+    }
+
+    .refree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .refree h1 {
+        font-size: 45px;
+
+    }
+    .newGame{
+        background-color: white;
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: hsl(229, 25%, 31%);
+    }
+    .newGame:hover{
+        background-color: bisque;
+        transform: translate3d(0px,-8px,0px);
+        transition: all 0.15s;
+    }
