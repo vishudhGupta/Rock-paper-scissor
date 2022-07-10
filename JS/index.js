@@ -70,6 +70,6 @@ const setDecision = (decision) => {
 
 
 const setScore = (score) =>{
-    console.log(score);
+    document.querySelector(".score h1").innerText = score;
 
 }
