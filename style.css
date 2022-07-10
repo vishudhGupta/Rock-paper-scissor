@@ -79,7 +79,7 @@ transition: all 0.25s;
 
 .contest{
     width: 900px;
-    display: flex;
+    display: none;
     margin-top: 50px;
 }
 .contest img{
