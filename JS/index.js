@@ -62,7 +62,13 @@ const referee = (userHand, cpHand) => {
       setScore(SCORE + 1);
     }
   };
-
+const restartGame = () => {
+    let hands = document.querySelector(".hands");
+hands.style.display = "flex";
+// Show the Results
+let contest = document.querySelector(".contest")
+contest.style.display = "none";
+}
 
 const setDecision = (decision) => {
    document.querySelector(".decision h1").innerText = decision;
@@ -70,6 +76,7 @@ const setDecision = (decision) => {
 
 
 const setScore = (score) =>{
+    SCORE = score;
     document.querySelector(".score h1").innerText = score;
 
 }
